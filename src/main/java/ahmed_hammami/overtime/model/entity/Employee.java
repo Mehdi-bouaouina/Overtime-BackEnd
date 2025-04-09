@@ -17,7 +17,7 @@ public class Employee {
     private Integer id;
     private String firstName;
     private String LastName;
-    private String function;
+    private String employeefunction;
     @OneToMany(mappedBy = "employee" , cascade = CascadeType.ALL)
     @JsonIgnore
     private Set<Overtime> overtime;
