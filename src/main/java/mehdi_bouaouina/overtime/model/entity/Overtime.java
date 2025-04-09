@@ -1,19 +1,23 @@
-package ahmed_hammami.overtime.model.entity;
+package mehdi_bouaouina.overtime.model.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.sql.Date;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-
-public class Price {
+public class Overtime {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Enumerated(EnumType.STRING)
-        private DayType dayType;
-    Long price;
+    private Date date;
+    Long nbHours;
+    @ManyToOne
+    private Employee employee;
+
+
 }

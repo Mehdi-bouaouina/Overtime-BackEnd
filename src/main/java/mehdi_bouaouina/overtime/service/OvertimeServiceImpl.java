@@ -1,12 +1,12 @@
-package ahmed_hammami.overtime.service;
+package mehdi_bouaouina.overtime.service;
 
-import ahmed_hammami.overtime.Repository.EmployeeRepository;
-import ahmed_hammami.overtime.Repository.OvertimeRepository;
-import ahmed_hammami.overtime.Repository.PriceRepository;
-import ahmed_hammami.overtime.dto.OvertimeResponseDto;
-import ahmed_hammami.overtime.model.entity.Employee;
-import ahmed_hammami.overtime.model.entity.Overtime;
-import ahmed_hammami.overtime.model.entity.Price;
+import mehdi_bouaouina.overtime.Repository.EmployeeRepository;
+import mehdi_bouaouina.overtime.Repository.OvertimeRepository;
+import mehdi_bouaouina.overtime.Repository.PriceRepository;
+import mehdi_bouaouina.overtime.dto.OvertimeResponseDto;
+import mehdi_bouaouina.overtime.model.entity.Employee;
+import mehdi_bouaouina.overtime.model.entity.Overtime;
+import mehdi_bouaouina.overtime.model.entity.Price;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

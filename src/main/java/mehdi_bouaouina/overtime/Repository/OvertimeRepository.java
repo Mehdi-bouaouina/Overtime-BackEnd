@@ -1,14 +1,13 @@
-package ahmed_hammami.overtime.Repository;
+package mehdi_bouaouina.overtime.Repository;
 
-import ahmed_hammami.overtime.dto.OvertimeResponseDto;
-import ahmed_hammami.overtime.model.entity.Overtime;
+import mehdi_bouaouina.overtime.dto.OvertimeResponseDto;
+import mehdi_bouaouina.overtime.model.entity.Overtime;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 @Repository
 public interface OvertimeRepository extends JpaRepository<Overtime, Integer> {
